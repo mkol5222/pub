@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-hello"
+version = "0.1.0"
+description = "Minimal hello world CLI for uvx demonstration"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+hello = "py_hello.cli:main"
+py-hello = "py_hello.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/py_hello"]
