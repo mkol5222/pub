@@ -10,7 +10,7 @@
         "@modelcontextprotocol/sdk": "^1.18.0"
     },
     "bin": {
-        "pub-npx-hello-demo": "npx-hello/bin/main.js",
+        "pub-npx-hello-demo": "mcp-node-echo/bin/main.js",
         "hello": "npx-hello/bin/hello.js",
         "bye": "npx-hello/bin/bye.js",
         "mcp-node-echo": "mcp-node-echo/bin/main.js"
