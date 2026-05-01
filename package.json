@@ -1,0 +1,12 @@
+{
+  "name": "pub-npx-hello-demo",
+  "version": "0.1.0",
+  "description": "Repository-level npm wrapper for the npx hello demo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "hello": "npx-hello/bin/hello.js"
+  }
+}
