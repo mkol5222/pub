@@ -1,3 +1,5 @@
+# Pub
+
 ```bash
 # demonstrate execution of a Python CLI using uvx
 uvx --from "git+https://github.com/mkol5222/pub.git#subdirectory=py-hello" hello
