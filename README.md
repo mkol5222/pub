@@ -37,3 +37,14 @@ make mcp-node-echo-docker-run
 
 The run target executes the stdio server with `docker run --rm -i`, which keeps
 stdin attached for MCP clients such as the Inspector.
+
+
+### MCP over SSE(HTTP)
+
+```bash
+
+# serve
+uvx git+https://github.com/sparfenyuk/mcp-proxy --port 8989 -- npx -y @modelcontextprotocol/server-everything
+# consume 
+npx -y @modelcontextprotocol/inspector --server-url http://127.0.0.1:8989/sse --transport sse
+```
