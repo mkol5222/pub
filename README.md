@@ -23,4 +23,5 @@ forwards to `npx-hello/bin/hello.js`.
 ### Minimal MCP server
 ```bash
 npx -y @modelcontextprotocol/inspector npx -y mkol5222/pub mcp-node-echo
+
 ```
