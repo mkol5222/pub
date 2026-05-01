@@ -8,6 +8,14 @@
       "environment": {
         "MY_ENV_VAR": "my_env_var_value"
       }
+    },
+    "mymcp": {
+      "type": "local",
+      "command": ["npx", "-y", "--package ", "mkol5222/pub", "mcp-node-echo"],
+      "enabled": true,
+      "environment": {
+        "MY_ENV_VAR": "my_env_var_value"
+      }
     }
   }
 }
