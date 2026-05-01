@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "bin": {
-    "hello": "npx-hello/bin/hello.js",
-    "bye": "npx-hello/bin/bye.js"
+    "pub": "npx-hello/bin/hello.js"
+   
   }
 }
