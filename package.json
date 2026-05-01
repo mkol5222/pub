@@ -1,14 +1,18 @@
 {
     "name": "pub-npx-hello-demo",
     "version": "0.1.0",
-    "description": "Repository-level npm wrapper for the npx hello demo",
+    "description": "Repository-level npm wrapper for the npx hello demo and MCP echo server",
     "license": "MIT",
     "engines": {
         "node": ">=20"
     },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.18.0"
+    },
     "bin": {
         "pub-npx-hello-demo": "npx-hello/bin/main.js",
         "hello": "npx-hello/bin/hello.js",
-        "bye": "npx-hello/bin/bye.js"
+        "bye": "npx-hello/bin/bye.js",
+        "mcp-node-echo": "mcp-node-echo/bin/main.js"
     }
 }
