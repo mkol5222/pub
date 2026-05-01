@@ -7,4 +7,6 @@ The package lives in a Git subdirectory, so `uvx` needs the source package via
 
 ```bash
 uvx --from "git+https://github.com/mkol5222/pub.git#subdirectory=py-hello" hello
+
+uvx --refresh --from "git+https://github.com/mkol5222/pub.git#subdirectory=py-hello" hello
 ```

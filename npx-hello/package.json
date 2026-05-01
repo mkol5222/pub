@@ -1,0 +1,12 @@
+{
+  "name": "npx-hello",
+  "version": "0.1.0",
+  "description": "Minimal hello world CLI for npx demonstration",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "hello": "bin/hello.js"
+  }
+}
